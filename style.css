@@ -1,0 +1,240 @@
+body{
+    font-family: 'Oswald';
+    background-color: #FAFBFF;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h2{
+    color: #000000;
+    font-size: 32px;
+}
+
+header span{
+    color: #98C9BA; 
+}
+
+.section01,.section03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em 0;
+}
+
+/*Estilização da primeira sessão*/
+
+.section01 div{
+    margin: 0 1.5%;
+}
+
+.text h3{
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.text h1{
+    font-size: 1.8em;
+}
+
+.text a{
+    display: inline-block;
+    background-color: #98C9BA;
+    margin-top: 15px;
+    padding: 15px 60px;
+    color: #FAFBFF;
+    text-transform: uppercase;
+    border-radius: 4%;
+    cursor: pointer;
+
+}
+
+.botao:hover {
+    background-color: #E1B4AD;
+    transition: 0.3s all;
+
+  }
+
+.text { 
+    width: 350px;
+    height: 275px;
+}
+
+.text h3{
+    margin-top: 0%;
+}
+
+.banner img{
+ 
+    width: 410px;
+    height: auto;
+    border-radius: 4%;
+}
+
+/*Estilização da segunda sessão*/
+
+.section02{
+    margin: 6em 0;
+}
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.produtos img{
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.produtos h2{
+    color: #FAFBFF;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.produtos{
+    width: 843px;
+    margin: 0 auto;
+}
+
+.produtos li{
+    background-color: black;
+    display: inline-block;
+    width: 165px;
+    margin-left: 3.3%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 2%;
+    cursor: pointer;
+
+}
+
+.produtos li:hover{
+    background-color: #98C9BA;
+    transition: 0.3s all;
+}
+
+/*Estilização da terceira sessão*/
+
+.section03{
+    background-color: #98C9BA;
+    height: 342px;
+    color: #FAFBFF;
+}
+
+.text02{
+    width: 280px;
+    margin-right: 60px;
+
+}
+
+.text02 h3{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.banner02 img{
+    width: auto;
+    height: 342px;
+    margin-top: 5px;
+}
+
+.text02 a{
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top: 15px;
+    padding: 15px 60px;
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 4%;
+    cursor: pointer;
+
+}
+
+/*Estilização da sessão formulário*/
+
+
+.area-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+
+.form form{
+    margin-top: 20px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form input {
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Oswald';
+}
+
+#mensagem {
+    background-color:  rgba(152, 201, 186, 0.2);
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Oswald';
+}
+
+.form label{
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    height: 40px;
+    text-transform: uppercase;
+    color: #FAFBFF;
+    background-color: #98C9BA;
+    font-family: 'Oswald';
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+.caixa{
+    padding: 6px;
+    text-transform: uppercase;
+    background-color:  rgba(152, 201, 186, 0.2);
+    border-radius: 2%;
+}
+
+/*Estilização da primeira rodapé*/
+
+footer{
+    background-color: rgba(152, 201, 186, 0.2);
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+
+}
+.social h3{
+    text-transform: uppercase;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.social img:hover{
+    transition: 0.3s all;
+}
+
+
+

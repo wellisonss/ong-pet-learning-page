@@ -10,7 +10,7 @@ header {
 
 header h2 {
   color: #000000;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 header span {
@@ -33,11 +33,11 @@ header span {
 
 .text h3 {
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .text h1 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 .text a {
@@ -91,7 +91,7 @@ header span {
 .produtos h2 {
   color: #fafbff;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .produtos {
@@ -131,7 +131,7 @@ header span {
 
 .text02 h3 {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.12rem;
 }
 
 .banner02 img {
@@ -193,7 +193,7 @@ input[type='submit'] {
   color: #fafbff;
   background-color: #98c9ba;
   font-family: 'Oswald';
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
